@@ -1,0 +1,33 @@
+.popup {
+  position: absolute;
+  bottom: 3em;
+  right: 1em;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 250px;
+  max-width: 30%;
+
+  background-color: var(--white);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup h6 {
+  font-size: 1.3em;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.popup p {
+  color: var(--light-grey);
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 500px) {
+  .popup {
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    max-width: 90%;
+  }
+}

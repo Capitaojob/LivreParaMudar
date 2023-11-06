@@ -1,0 +1,60 @@
+button.panic__button {
+  --size: 140px;
+  width: var(--size);
+  height: var(--size);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: var(--dark-red);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 10px 0 var(--black);
+  font-size: 1.3em;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  border-radius: 50%;
+  z-index: 100;
+}
+
+/* .panic__button {
+  --size: 140px;
+  width: var(--size);
+  height: var(--size);
+  position: absolute;
+  z-index: 10000;
+  right: 20px;
+  bottom: 20px;
+  background-color: var(--dark-red);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 10px 0 var(--black);
+  font-size: 1.3em;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 50%;
+} */
+
+button.panic__button:hover {
+  transform: translateY(2px);
+  box-shadow: 0 8px 0 var(--black);
+}
+
+button.panic__button:active {
+  transform: translateY(5px);
+  box-shadow: 0 5px 0 var(--black);
+}
+
+@media screen and (max-width: 768px) {
+  button.panic__button {
+    --size: 100px;
+    font-size: 1em;
+    bottom: 65px;
+  }
+}

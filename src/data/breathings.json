@@ -1,0 +1,77 @@
+{
+  "breathingExercises": [
+    {
+      "id": 1,
+      "name": "Respiração para Autorregulação",
+      "description": "Equilibra emoções e reduz estresse.",
+      "exerciseDuration": 75,
+      "inhale": 6,
+      "holdInhale": 4,
+      "exhale": 6,
+      "holdExhale": 8
+    },
+    {
+      "id": 2,
+      "name": "Respiração Quadrada",
+      "description": "Foco e relaxamento em 4 passos.",
+      "exerciseDuration": 40,
+      "inhale": 4,
+      "holdInhale": 4,
+      "exhale": 4,
+      "holdExhale": 4
+    },
+    {
+      "id": 3,
+      "name": "Respiração 4-7-8",
+      "description": "Induz tranquilidade e sono.",
+      "exerciseDuration": 75,
+      "inhale": 4,
+      "holdInhale": 7,
+      "exhale": 8
+    },
+    {
+      "id": 4,
+      "name": "Respiração Nasal Alternada",
+      "description": "Harmoniza a respiração nasal.",
+      "exerciseDuration": 75,
+      "inhale": 6,
+      "holdInhale": 2,
+      "exhale": 6,
+      "holdExhale": 2
+    },
+    {
+      "id": 5,
+      "name": "Respiração Profunda",
+      "description": "Acalma a mente e o corpo.",
+      "exerciseDuration": 60,
+      "inhale": 6,
+      "holdInhale": 3,
+      "exhale": 6,
+      "holdExhale": 3
+    },
+    {
+      "id": 6,
+      "name": "Respiração Rápida",
+      "description": "Energize-se em 20 segundos.",
+      "exerciseDuration": 20,
+      "inhale": 2,
+      "exhale": 2
+    },
+    {
+      "id": 7,
+      "name": "Respiração Relaxante",
+      "description": "Promove relaxamento e alívio.",
+      "exerciseDuration": 50,
+      "inhale": 5,
+      "exhale": 5
+    },
+    {
+      "id": 8,
+      "name": "Respiração de Meditação",
+      "description": "Meditação com foco na respiração.",
+      "exerciseDuration": 50,
+      "inhale": 4,
+      "exhale": 6
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+.error__container {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.error__container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: fit-content;
+  margin-top: 3vh;
+}
+
+.error__container a,
+.error__container button {
+  width: 200px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1.1em;
+  font-weight: 400;
+  font-family: var(--font);
+  line-height: 1.4;
+}
+
+.error__container a {
+  background-color: var(--dark-red);
+}
+
+.error__container button {
+  background-color: var(--green);
+}

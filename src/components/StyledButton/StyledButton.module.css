@@ -1,0 +1,21 @@
+.button {
+  position: relative;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 1.1em;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.default {
+  background: linear-gradient(to right, var(--orange-red), var(--dark-red));
+}
+
+.solid {
+  background: var(--white);
+  color: var(--black);
+}

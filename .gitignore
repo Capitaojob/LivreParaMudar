@@ -1,0 +1,21 @@
+# Arquivos gerados pela execução do Node.js
+node_modules/
+
+# Saída de depuração
+npm-debug.log
+yarn-error.log
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Arquivos de build
+/build/
+/dist/
+/out/
+
+# Outros arquivos específicos do seu projeto, como arquivos de configuração
+config.js

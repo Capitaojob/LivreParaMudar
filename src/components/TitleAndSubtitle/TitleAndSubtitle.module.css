@@ -1,0 +1,25 @@
+.text__container {
+  border-left: 4px solid var(--dark-red);
+  padding-left: 10px;
+  width: 70%;
+  margin-bottom: 50px;
+}
+
+.text__container p {
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 700px) {
+  .text__container {
+    width: 90%;
+  }
+
+  .text__container h1 {
+    font-size: 1.4em;
+  }
+
+  .text__container p {
+    font-size: 1em;
+  }
+}

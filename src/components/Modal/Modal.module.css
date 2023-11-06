@@ -1,0 +1,92 @@
+.modal {
+  position: absolute;
+  top: 2%;
+  left: 20%;
+  width: 60%;
+  min-height: 96%;
+  color: var(--white);
+  background-color: var(--dark-red);
+  padding: 50px 20px 20px 20px;
+  text-align: center;
+  border-radius: 20px;
+  z-index: 100000;
+  transition: all 150ms ease-out;
+  animation: warning-cycle 2s ease-in-out infinite;
+}
+
+.modal div {
+  width: 80%;
+  padding: 10px;
+  margin: 0 auto 40px auto;
+}
+
+.modal h3 {
+  font-size: 2em;
+}
+
+.modal h4 {
+  width: fit-content;
+  padding: 10px 30px;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--white);
+  margin-bottom: 50px;
+}
+
+.modal h5 {
+  font-size: 1.1em;
+}
+
+.modal p {
+  text-align: justify;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+/* .modal::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+} */
+
+@keyframes warning-cycle {
+  0% {
+    box-shadow: 0 0 10px 10px rgba(116, 20, 20, 0.5), 0 0 10px 2000px rgba(0, 0, 0, 0.9);
+  }
+
+  50% {
+    box-shadow: 0 0 10px 2000px rgba(116, 20, 20, 0.9);
+  }
+
+  100% {
+    box-shadow: 0 0 10px 2000px rgba(0, 0, 0, 0.9);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .modal {
+    left: 10%;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal {
+    left: 5%;
+    width: 90%;
+  }
+
+  .modal h4 {
+    padding: 10px 10px;
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "Questionário de Bem-Estar",
+      "description": "Explore uma variedade de tópicos para melhorar o seu bem-estar geral e aprimorar a sua vida pessoal.",
+      "questionsAndOptions": [
+        {
+          "id": 1,
+          "question": "Como você geralmente lida com o estresse?",
+          "options": [
+            "Exercícios de respiração profunda",
+            "Exercício regular",
+            "Conversar com amigos ou familiares",
+            "Nenhuma das alternativas acima"
+          ]
+        },
+        {
+          "id": 2,
+          "question": "O que você faz para manter um equilíbrio saudável entre trabalho e vida pessoal?",
+          "options": [
+            "Estabelecer limites claros",
+            "Priorizar o autocuidado",
+            "Comunicar com seu empregador e entes queridos",
+            "Todas as alternativas acima"
+          ]
+        },
+        {
+          "id": 3,
+          "question": "Qual tipo de exercício você mais gosta?",
+          "options": ["Treinamento cardiovascular", "Treinamento de força", "Exercícios de flexibilidade", "Eu não gosto de exercício"]
+        },
+        {
+          "id": 4,
+          "question": "Quais alimentos você inclui em sua dieta diária?",
+          "options": ["Frutas e legumes", "Proteínas magras", "Grãos integrais", "Fast food e lanches processados"]
+        },
+        {
+          "id": 5,
+          "question": "Como você constrói confiança e conexão em seus relacionamentos?",
+          "options": ["Escuta ativa", "Mostrar apreço", "Passar tempo de qualidade juntos", "Não foco em construir conexões mais profundas"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Questionário de Avaliação de Relacionamentos",
+      "description": "Avalie seus relacionamentos para identificar áreas de melhoria e crescimento pessoal.",
+      "questionsAndOptions": [
+        {
+          "id": 1,
+          "question": "Como você costuma lidar com situações estressantes em seus relacionamentos?",
+          "options": [
+            "Comunicação aberta e honesta",
+            "Procurando entender o ponto de vista do outro",
+            "Tentando resolver conflitos de forma construtiva",
+            "Evitando confrontos e mantendo distância"
+          ]
+        },
+        {
+          "id": 2,
+          "question": "O que você faz para manter um equilíbrio saudável entre seus compromissos pessoais e profissionais?",
+          "options": [
+            "Estabelecer limites claros entre trabalho e vida pessoal",
+            "Priorizar o autocuidado e o tempo para si mesmo",
+            "Comunicar suas necessidades a colegas de trabalho e entes queridos",
+            "Todas as opções acima"
+          ]
+        },
+        {
+          "id": 3,
+          "question": "Que atividades ou passatempos você e seus entes queridos desfrutam juntos?",
+          "options": ["Atividades ao ar livre", "Jogos de tabuleiro", "Assistir a filmes ou séries", "Não costumamos fazer atividades juntos"]
+        },
+        {
+          "id": 4,
+          "question": "Quais são as principais fontes de conflito em seus relacionamentos?",
+          "options": [
+            "Comunicação inadequada",
+            "Diferenças de valores e prioridades",
+            "Falta de tempo para dedicar aos relacionamentos",
+            "Não tenho conflitos significativos"
+          ]
+        },
+        {
+          "id": 5,
+          "question": "Como você trabalha na construção de confiança e conexão em seus relacionamentos?",
+          "options": [
+            "Escutando ativamente os outros",
+            "Expressando gratidão e apreço",
+            "Investindo tempo de qualidade com os outros",
+            "Não me esforço ativamente para construir conexões mais profundas"
+          ]
+        }
+      ]
+    }
+  ]
+}

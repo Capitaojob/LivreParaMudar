@@ -1,0 +1,27 @@
+.link__item {
+  text-decoration: none;
+}
+
+.link__item div {
+  padding: 10px 20px;
+  border: 1px solid var(--black);
+  border-radius: 20px;
+  margin-bottom: 30px;
+  transition: 200ms ease all;
+}
+
+.link__item:hover div,
+.link__item:focus div {
+  background-color: var(--dark-red);
+}
+
+.link__item:hover,
+.link__item:focus {
+  color: var(--white);
+}
+
+@media screen and (max-width: 700px) {
+  .breathing__item h2 {
+    font-size: 1.2em;
+  }
+}
